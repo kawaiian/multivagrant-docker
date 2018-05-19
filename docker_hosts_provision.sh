@@ -2,7 +2,7 @@
 
 HOSTNAME=$1
 DOCKER_EDITION=$2
-DOCKER_EE_REPO="https://storebits.docker.com/ee/trial/sub-2119a041-ce08-4c40-b71d-2f23c34d61fb"
+DOCKER_EE_REPO="$YOUR_DOCKER_REPO_HERE"
 
 mv /tmp/hosts /etc/hosts
 sudo hostname "$HOSTNAME"
