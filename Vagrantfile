@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
         host1.vm.box = "ubuntu/xenial64"
 
         host1.vm.provider "virtualbox" do |v|
-            v.memory = 2048
+            v.memory = 4096
         end
 
         host1.vm.hostname = "host1.akira"
@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
         host2.vm.box = "ubuntu/xenial64"
 
         host2.vm.provider "virtualbox" do |v|
-            v.memory = 2048
+            v.memory = 4096
         end
 
         host2.vm.hostname = "host2.akira"
@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
         host3.vm.box = "ubuntu/xenial64"
 
         host3.vm.provider "virtualbox" do |v|
-            v.memory = 2048
+            v.memory = 4096
         end
 
         host3.vm.hostname = "host3.akira"
